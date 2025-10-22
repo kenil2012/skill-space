@@ -2,7 +2,9 @@
   "name": "@skill-space/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start:front-end": "nx serve front-end"
+  },
   "private": true,
   "devDependencies": {
     "@analogjs/vite-plugin-angular": "~1.19.1",
